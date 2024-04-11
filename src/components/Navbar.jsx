@@ -7,15 +7,14 @@ const Navbar = () => {
       <div className="flex justify-between p-4 bg-gray-600">
         <div className="flex">
           <img className="w-10 h-10" src="../src/assets/logo.png" alt="" />
-          <Link to={"/"}>
-            {" "}
+          <Link to="/">
             <h2 className="font-bold ml-2 text-white sm:text-3xl text-xl">
               Forecastify
             </h2>
           </Link>
         </div>
         <div>
-          <Link to={"/search"} target="_blank">
+          <Link to="/search" target="_blank">
             <button className="p-2 bg-cyan-500 text-sm sm:text-md text-white rounded-md">
               Weather Search
             </button>

@@ -11,8 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path={`/search`} element={<SearchPage />} />
-          <Route path={`/searchId/:geoid`} element={<Spage />} />
+          <Route path="/search" element={<SearchPage />} />
+          <Route path="/searchId/:geoid" element={<Spage />} />
         </Routes>
       </BrowserRouter>
     </>
