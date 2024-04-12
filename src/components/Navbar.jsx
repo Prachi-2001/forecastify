@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <div className="flex justify-between p-4 bg-gray-600">
         <div className="flex">
-          <img className="w-10 h-10" src="../src/assets/logo.png" alt="" />
+          <img className="w-10 h-10" src="/logo.png" alt="" />
           <Link to="/">
             <h2 className="font-bold ml-2 text-white sm:text-3xl text-xl">
               Forecastify
